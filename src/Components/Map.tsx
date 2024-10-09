@@ -43,10 +43,6 @@ export default function MapComponent(){
     }
   }, [map, markerCluster]);
 
-  if(response){
-    console.log(response.data['features'])
-  }
-
   return (
     <>
       <div ref={ref as any} style={{height: "100%", width: "100%", minHeight:"700px"}} ></div>
