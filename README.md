@@ -1,11 +1,15 @@
 # To run this locally:
 
 -Make sure you have npm installed
+
 -Run `npm install`
+
 -Add a `.env.development` file with the following variables:
+
     ```
     REACT_APP_GOOGLE_MAPS_API_KEY=<Your google maps api key>
     ```
+
 -Run `npm start`
 
 ## Available Scripts
